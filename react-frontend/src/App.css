@@ -1,0 +1,72 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 475px;
+  background-color: blue;
+  height: 744px;
+}
+
+.Controls {
+  width: 475px;
+  height: 44px;
+  background-color: white;
+}
+
+.Sheet_ID_Box {
+  margin-left: 11px;
+  width: 393px;
+}
+
+.Preview_Question_Number_Box {
+  margin-left: 11px;
+  text-align: right;
+  width: 114px;
+}
+
+.Live {
+  width: 475px;
+  height: 350px;
+  display: flex-inline;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Preview {
+  width: 475px;
+  height: 350px;
+  display: flex-inline;
+  justify-content: flex-start;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.currentQuestioner {
+  background-color: #FFA500;
+  color: white;
+  font-size: 26px;
+  font-weight: bolder;
+  padding: 4px;
+  margin: 0px;
+}
+
+.currentQuestion {
+  font-size: 24px;
+  padding: 11px;
+  margin: 0px;
+  background-color: white;
+}
+
+.previewQuestioner {
+  background-color: #FFA500;
+  color: white;
+  font-size: 26px;
+  font-weight: bolder;
+  padding: 4px;
+  margin: 0px;
+}
+
+.previewQuestion {
+  font-size: 24px;
+  padding: 11px;
+  margin: 0px;
+  background-color: white;
+}
